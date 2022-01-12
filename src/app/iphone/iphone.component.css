@@ -1,0 +1,8 @@
+.topnav a {
+  float: left;
+  display: block;
+  color: #e61515;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}

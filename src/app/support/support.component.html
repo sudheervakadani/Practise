@@ -1,0 +1,33 @@
+<br>
+<br>
+<div class="display">
+  <h1> Welcome to support</h1>
+  <span> For customer Support
+    contact: 123456789 or
+    email: support@support.com
+
+    Store Address:
+    777 Burrard st, Vancouver BC. V3J53J
+  </span>
+  <br>
+  <hr>
+  <br>
+  <label for="bitcoin"> Enter The Name:</label>
+  <input type="text" name="bitcoin" id="bitcoin">
+  <button (click)="getBitCoinPrices()"> View</button>
+</div>
+<br>
+<table class="table" *ngIf="showTable">
+  <tr>
+    <th></th>
+    <th>Coin Name</th>
+    <th>Price</th>
+    <th>Market</th>
+  </tr>
+  <!-- <tr *ngFor="let bitcoin of bitcoinList">
+    <td>{{bitcoin}}</td>
+    <td>{{bitcoin}}</td>
+    <td>{{bitcoin}}</td>
+    <td>{{bitcoin}}</td>
+  </tr> -->
+</table>

@@ -1,0 +1,28 @@
+.navigator a {
+  float: left;
+  display: block;
+  width: 13%;
+  color: hsl(0, 0%, 3%);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: silver;
+  overflow: hidden;
+}
+
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.navigator a:hover {
+  background-color: #ddd;
+  color: black;
+}
