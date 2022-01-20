@@ -34,3 +34,11 @@ table {
 #table tr:nth-child(even){background-color: #f2f2f2;}
 
 #table tr:hover {background-color: #ddd;}
+
+div {
+  border-radius: 25px;
+  background: #aef188;
+  padding: 20px;
+  width: 50%;
+  height: 150px;
+}

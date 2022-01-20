@@ -6,3 +6,10 @@
   padding: 14px 16px;
   text-decoration: none;
 }
+div {
+  border-radius: 25px;
+  background: #ee6efa;
+  padding: 20px;
+  width: 50%;
+  height: 100%;
+}

@@ -9,8 +9,8 @@ export class BitcoinService {
 
   constructor(private http: HttpClient) { }
 
-  getBitCoinList() {
-  return this.http.get<any[]>("echo/get/json");
+  getBreweriesList() {
+  return this.http.get("https://api.openbrewerydb.org/breweries");
 
   }
 }

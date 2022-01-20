@@ -2,17 +2,18 @@
   float: left;
   display: block;
   width: 13%;
-  color: hsl(0, 0%, 3%);
+  color: rgb(17, 17, 17);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  background-color: silver;
+  background-color: rgba(199, 199, 190, 0.959);
   overflow: hidden;
 }
 
 
 /* Style the topnav links */
 .topnav a {
+  border-radius: 25px;
   float: left;
   display: block;
   color: #f2f2f2;

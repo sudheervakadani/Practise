@@ -1,3 +1,29 @@
+<br>
 <div>
   <h1> Store. The best way to buy the products you love.</h1>
+</div>
+<br>
+<div>
+<label for="shopping" >Select A Country </label><br>
+<select (change)="getProductData()"  name="shopping" id="shopping">
+  <option value="default">----</option>
+  <option selected="selected" *ngFor="let country of countries" [value]="country">{{country}}</option>
+<br>
+<p>you choose {{country}}</p>
+</select>
+
+  <table *ngIf="showTable">
+    <tr>
+      <th>Country Code</th>
+      <th>country</th>
+      <th>University Name</th>
+      <th>web site</th>
+    </tr>
+    <tr *ngFor="let university of universitiesList">
+      <td>{{university.alpha_code}}</td>
+      <td>{{university.country}}</td>
+      <td>{{university.name}}</td>
+      <td>{{university.web_page}}</td>
+    </tr>
+  </table>
 </div>

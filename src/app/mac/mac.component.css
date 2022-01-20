@@ -12,3 +12,11 @@
   background-color: #ddd;
   color: black;
 }
+div {
+  border-radius: 25px;
+  background: #aef188;
+  padding: 20px;
+  width: 50%;
+  height: 100%;
+}
+

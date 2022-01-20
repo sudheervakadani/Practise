@@ -1,0 +1,44 @@
+.display {
+  color: grey;
+}
+#Pageviewers {
+  transition-duration: 0.4s;
+  border-radius: 14px;
+}
+#pageViewers :hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: grey; /*Grey */
+  color: rgb(147, 247, 16);
+}
+input {
+  margin: 2%;
+}
+#pageViewers {
+  margin: 2%;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  text-align: left;
+  background-color: rgb(170, 164, 164);
+  color: rgb(14, 13, 13);
+}
+#pageViewers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 40%;
+}
+
+#table td, #table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#table tr:nth-child(even){background-color: #f2f2f2;}
+
+#table tr:hover {background-color: #ddd;}
+div {
+  border-radius: 25px;
+  background: #6fc4f5;
+  padding: 20px;
+  width: 50%;
+  height: 150px;
+}

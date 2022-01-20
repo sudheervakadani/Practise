@@ -22,11 +22,11 @@ export class SupportComponent implements OnInit {
   ngOnInit(): void {
   }
   getBitCoinPrices () {
-    this.bitcoinService.getBitCoinList().subscribe(
+    this.bitcoinService.getBreweriesList().subscribe(
     (successResponse: any) => {
       this.showTable = true;
       this.bitCoinList = successResponse;
-      console.log(this.bitCoinList)
+      console.log(this.bitCoinList);
     },
     (errorResponse: any) => {
       this.errorMessage = "Bad Request";

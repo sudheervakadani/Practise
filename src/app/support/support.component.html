@@ -1,6 +1,7 @@
-<br>
-<br>
+<br><br>
+
 <div class="display">
+  <br>
   <h1> Welcome to support</h1>
   <span> For customer Support
     contact: 123456789 or
@@ -8,9 +9,10 @@
 
     Store Address:
     777 Burrard st, Vancouver BC. V3J53J
-  </span>
-  <br>
-  <hr>
+  <br><br>
+<br>
+</span> </div> <br><br>
+<div>
   <br>
   <label for="bitcoin"> Enter The Name:</label>
   <input type="text" name="bitcoin" id="bitcoin">
@@ -19,15 +21,15 @@
 <br>
 <table class="table" *ngIf="showTable">
   <tr>
-    <th></th>
-    <th>Coin Name</th>
-    <th>Price</th>
-    <th>Market</th>
+    <th> Brewery Name</th>
+    <th> city</th>
+    <th>State</th>
+    <th>Website</th>
+  </tr><br>
+  <tr *ngFor="let bitcoin of bitCoinList">
+    <td>{{bitcoin.name}}</td>
+    <td>{{bitcoin.city}}</td>
+    <td>{{bitcoin.state}}</td>
+    <td>{{bitcoin.website_url}}</td>
   </tr>
-  <!-- <tr *ngFor="let bitcoin of bitcoinList">
-    <td>{{bitcoin}}</td>
-    <td>{{bitcoin}}</td>
-    <td>{{bitcoin}}</td>
-    <td>{{bitcoin}}</td>
-  </tr> -->
 </table>
